@@ -29,7 +29,7 @@ ALLOWED_HOSTS = ['*']
 
 # Celery settings
 
-CELERY_BROKER_URL = 'redis://18.185.96.224:6379/0'
+CELERY_BROKER_URL = 'redis://172.31.40.213:6379/0'
 # CELERY_RESULT_BACKEND = 'django-db'
 
 
@@ -87,7 +87,7 @@ DATABASES = {
         'NAME': 'djangodocker',
         'USER': 'django',
         'PASSWORD': 'django',
-        'HOST': '18.185.96.224',
+        'HOST': '172.31.40.213',
         'PORT': '3306',
     }
 }
